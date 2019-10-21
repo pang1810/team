@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.kaitou-diyihang{
+    width: 273.25px;
+    height: 168.13px;
+    margin: 24px 25.5px 40px 0;
+}
+.tupian-box1{
+    margin:0px 0px 10px 0px; 
+    display:inline-block;
+    height:159.95px;
+}
+.box{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tupianzhanshi{
+    width: 273.25px;
+    height: 237.953px;
+    margin: 0 25.5px 31.875px 0;
+}
+.tupian-box{
+    margin:0px 0px 10px 0px; 
+    display:inline-block;
+    height:159.95px;
+}
+.tupianzhanshi h2{
+    font-size: 15px;
+    height: 42px;
+    width: 293.25px;
+    margin: 0 0 10px;
+}
+.tupianzhanshi a{
+    display: inline-block;
+    color: black;
+}
+.tupianzhanshi a:hover{
+    color: #FF6651;
+}
+footer{
+    font-size: 12px;
+    color: #bbb;
+}
+footer a{
+    float: right;
+}
+footer a img{
+    margin-bottom: -1px;
+    margin-right:1px;
+
+}
+footer a span{
+    color: #bbb;
+}
+footer a span:hover{
+    color: #FF6651;
+}
+footer time{
+    margin-right: 10px;
+}
+.post-view{
+    margin-right: 10px;
+}
+.pages{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}

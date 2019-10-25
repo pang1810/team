@@ -1,0 +1,35 @@
+.red{
+	color: red;
+}
+.blue{
+	color: blue;
+}
+.font20{
+	font: 20px;
+}
+/*1000px安全布局*/
+.wrap{
+	width: 1000px;
+	/* border: 1px solid red; */
+	margin: auto;
+}
+.header{
+	height: 100px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 100px;
+	background: red;
+	display: flex;
+	justify-content: space-between;
+}
+.main{
+	min-height: 400px;
+	line-height: 400px;
+	background: green;
+}
+.footer{
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+	background: gray;
+}

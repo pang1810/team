@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.15dd6d2f.chunk.css",
+    "main.js": "./static/js/main.7204bacf.chunk.js",
+    "main.js.map": "./static/js/main.7204bacf.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.279b6ba7.js",
+    "runtime-main.js.map": "./static/js/runtime-main.279b6ba7.js.map",
+    "static/css/2.aa7fcd32.chunk.css": "./static/css/2.aa7fcd32.chunk.css",
+    "static/js/2.a49bcac3.chunk.js": "./static/js/2.a49bcac3.chunk.js",
+    "static/js/2.a49bcac3.chunk.js.map": "./static/js/2.a49bcac3.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.f07c2f559e38cc96977fcd6a411fc83f.js": "./precache-manifest.f07c2f559e38cc96977fcd6a411fc83f.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.aa7fcd32.chunk.css.map": "./static/css/2.aa7fcd32.chunk.css.map",
+    "static/css/main.15dd6d2f.chunk.css.map": "./static/css/main.15dd6d2f.chunk.css.map",
+    "static/media/1.jpg": "./static/media/1.68af6e52.jpg",
+    "static/media/AAF-Relinker.jpg": "./static/media/AAF-Relinker.b236b3c5.jpg",
+    "static/media/Adobe-CC-2019-Win-ALL.jpg": "./static/media/Adobe-CC-2019-Win-ALL.2c2aea94.jpg"
+  }
+}

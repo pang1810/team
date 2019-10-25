@@ -1,0 +1,17 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background: cyan;
+}
+.left{
+    width: 100px;
+    height: 200px;
+    border: 1px solid gray;
+    float: left;
+}
+.right{
+    width: 100px;
+    height: 200px;
+    border: 1px solid gray;
+    float: right;
+}

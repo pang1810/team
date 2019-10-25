@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<meta http-equiv='X-UA-Compatible' content='ie=edge'>
+	<title>title/**/</title>
+</head>
+<style></style>
+
+<body>
+	<div></div>
+
+	<script>
+		//工厂函数也就是class的前身
+		//这个函数现在叫构造函数
+		function Person(name, age, sex) {
+			this.name = name || '人类';//名字
+			this.age = age || '100岁';//年龄
+			this.sex = sex || '女';//性别
+			this.getName = function () {
+				return this.name;
+			}
+		}
+		Person.prototype.getPerson = function () {
+			console.log(this.name + '今年:' + this.age + '性别' + this.sex)
+		}
+
+		/*
+		当我们new一个构造函数的时候，js在底层做了如下几件事：
+			创建了一个对象并且将构造函数的内部指针指向这个对象，从而这个对象拥有了构造函数内的所有属性和方法
+		最后返回这个对象
+		*/
+		//new出来的叫实例化对象
+		var p1 = new Person('小王', '21岁', '男');
+		// console.log(p1)
+
+		//类
+		class Web {
+			//构造函数
+			constructor(name, age, sex) {
+				this.name = name;
+				this.age = age;
+				this.sex = sex;
+			}
+			//凡是写在class内部，构造函数外部属性或方法，都去了原型对象上了
+			getPerson() {
+				console.log(this.name + '今年:' + this.age + '性别' + this.sex)
+			}
+		}
+		let p2 = console.log(new Web('小张', '56岁', '女'))
+		cons
+	</script>
+</body>
+
+</html>

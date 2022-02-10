@@ -7,7 +7,7 @@
     "axios": "^0.19.0",
     "jsonp": "^0.2.1",
     "lodash": "^4.17.15",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
     "react-scripts": "3.1.2"
@@ -36,7 +36,7 @@
   "多余": "?wd=",
   "prosy": "http: //suggestion.baidu.com/su",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   },
   "homepage": "."
 }
